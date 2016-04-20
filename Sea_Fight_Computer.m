@@ -1,5 +1,4 @@
 function Sea_Fight_Computer
-%Termwork Sea Fight
 %Ivan Tsud
 
 set(gcf, 'Resize', 'on')%to make figure resizable
@@ -19,7 +18,7 @@ switch Vipadok
     case 1    
             %ships for the first player
             %if form is like p1(1,1+p)=1;-it means that ship lacated
-            %apeak(вертикально)
+            %apeak(ГўГҐГ°ГІГЁГЄГ Г«ГјГ­Г®)
             %if form is like p1(1+p,10)=1;-it means that ship located 
             %horizontally
             for p = 0 : 3 %preparing 1 the four tube ship
@@ -310,9 +309,9 @@ while(true)
                     'r', 'LineWidth', 2);
             end
         end
-         title('\bf Гравець ходить!!', 'Color', 'g');
+         title('\bf ГѓГ°Г ГўГҐГ¶Гј ГµГ®Г¤ГЁГІГј!!', 'Color', 'g');
          [x, y] = ginput(1);
-         x = ceil(x); %округлюємо в сторону більшого
+         x = ceil(x); %Г®ГЄГ°ГіГЈГ«ГѕВєГ¬Г® Гў Г±ГІГ®Г°Г®Г­Гі ГЎВіГ«ГјГёГ®ГЈГ®
          y = ceil(y);
          
          while ((x < 15 || x > 25) || (y < 0 || y > 10))
@@ -344,7 +343,7 @@ while(true)
                     'r', 'LineWidth', 2);
             end
         end
-         title('\bf Комп"ютер ходить!!', 'Color', 'c');
+         title('\bf ГЉГ®Г¬ГЇ"ГѕГІГҐГ° ГµГ®Г¤ГЁГІГј!!', 'Color', 'c');
          %shots of PC
          x = randi([1, 10]);
          y = randi([1, 10]);
@@ -374,10 +373,10 @@ while(true)
 %====================
 
     if Cheking(p1) == 20
-        helpdlg('Комп"ютер переміг!!!','Перемога Комп"ютера!');
+        helpdlg('ГЉГ®Г¬ГЇ"ГѕГІГҐГ° ГЇГҐГ°ГҐГ¬ВіГЈ!!!','ГЏГҐГ°ГҐГ¬Г®ГЈГ  ГЉГ®Г¬ГЇ"ГѕГІГҐГ°Г !');
         pause;
     elseif Cheking(comp) == 20
-        helpdlg('Гравець переміг!!!','Перемога Гравця!');
+        helpdlg('ГѓГ°Г ГўГҐГ¶Гј ГЇГҐГ°ГҐГ¬ВіГЈ!!!','ГЏГҐГ°ГҐГ¬Г®ГЈГ  ГѓГ°Г ГўГ¶Гї!');
         pause;
     end
 end
