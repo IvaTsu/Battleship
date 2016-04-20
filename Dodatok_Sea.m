@@ -3,6 +3,7 @@ function Dodatok_Sea
 %Vipadok choses the current nuber of the field of ships.
 %We obtain it from Sea_Fight_Mod
 %Copyright Ivan Tsud
+
 global Vipadok
 turn = 1; %variable, that switches the player's turn
 m = 10;
