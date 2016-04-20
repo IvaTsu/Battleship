@@ -1,8 +1,9 @@
 function Dodatok_Sea_2
 %Subfunction for observing ships of Player 2
-
 %Vipadok choses the current nuber of the field of ships.
 %We obtain it from Sea_Fight_Mod
+%Copyright Ivan Tsud
+
 global Vipadok
 m = 10;
 n = 10;
