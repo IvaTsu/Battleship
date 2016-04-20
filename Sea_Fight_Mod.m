@@ -1,10 +1,10 @@
 function Sea_Fight_Mod
-%Termwork Sea Fight
+
 %Copyright, Ivan Tsud
 
 turn = 1;%variable, that switches the player's turn
 %=========
-%zero matrices for following usage as stencil(шаблон) for location ships
+%zero matrices for following usage as stencil(ГёГ ГЎГ«Г®Г­) for location ships
 global Vipadok
 m = 10;
 n = 10;
@@ -304,9 +304,9 @@ while (true)
                     'r', 'LineWidth', 2);
             end
         end
-        title('\bf Гравець 1 ходить!', 'Color', 'b');   
+        title('\bf ГѓГ°Г ГўГҐГ¶Гј 1 ГµГ®Г¤ГЁГІГј!', 'Color', 'b');   
         [x, y] = ginput(1);
-         x = ceil(x);%округлюємо в сторону більшого
+         x = ceil(x);%Г®ГЄГ°ГіГЈГ«ГѕВєГ¬Г® Гў Г±ГІГ®Г°Г®Г­Гі ГЎВіГ«ГјГёГ®ГЈГ®
          y = ceil(y);
          
          while ((x < 15 || x > 25) || (y < 0 || y > 10))
@@ -337,7 +337,7 @@ while (true)
                 'r', 'LineWidth', 2);
             end
         end
-         title('\bf Гравець 2 ходить!','Color','k');
+         title('\bf ГѓГ°Г ГўГҐГ¶Гј 2 ГµГ®Г¤ГЁГІГј!','Color','k');
          [x, y] = ginput(1);
          x = ceil(x);
          y = ceil(y);
@@ -368,10 +368,10 @@ while (true)
      cla;     
 %====================
     if Cheking(p1) == 20
-        helpdlg('Гравець 2 переміг!','Перемога!!')
+        helpdlg('ГѓГ°Г ГўГҐГ¶Гј 2 ГЇГҐГ°ГҐГ¬ВіГЈ!','ГЏГҐГ°ГҐГ¬Г®ГЈГ !!')
         pause;
     elseif Cheking(p2)==20
-        helpdlg('Гравець 1 переміг!','Перемога!!')
+        helpdlg('ГѓГ°Г ГўГҐГ¶Гј 1 ГЇГҐГ°ГҐГ¬ВіГЈ!','ГЏГҐГ°ГҐГ¬Г®ГЈГ !!')
         pause;
     end
 end
