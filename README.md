@@ -1,6 +1,27 @@
-# Battleship
+![Logo of the project](./img/battleship.png)
 
-This is the battleship game that was developed in MATLAB environment.
-It is possible to play with computer and with another player.
-For the game with computer there were created templates where ships are located.
-The templates number is 10. Any template from 1 to 10 can be chosen.
+# BATTLESHIP &middot; [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/your/your-project/blob/master/LICENSE)
+> BATTLESHIP game created in MATLAB environment
+
+A battleship game with 2 game modes: PC and User
+
+## Installing / Getting started
+
+A quick introduction of the minimal setup you need to get a project up &
+running.
+
+```shell
+just run Sea_Fight_Mod.m with Matlab
+```
+
+## Developing
+
+### Built With
+- Matlab
+
+### Prerequisites
+To run the project the only need is Matlab :)
+
+## Licensing
+
+The project is under [MIT License](./LICENSE.md)
